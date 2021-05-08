@@ -25,11 +25,7 @@ class _HomeState extends State<Home> {
 
     int i = 0;
     bool loop = true;
-    // if (findNumber % 2 == 0) {
-    //   findNumber = findNumber;
-    // } else {
-    //   findNumber += 1;
-    // }
+
     print("findNumber $findNumber");
     while (loop) {
       if (findNumber > numberCollection.length) {
